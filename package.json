@@ -1,5 +1,5 @@
 {
-  "name": "carvesdk",
+  "name": "@carve.photos/sdk",
   "version": "0.1.0",
   "description": "Node.js SDK for Carve.Photos — background removal API for images and videos",
   "main": "index.js",
