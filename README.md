@@ -1,15 +1,15 @@
-# carvesdk
+# @carve.photos/sdk
 
 Node.js SDK for [Carve.Photos](https://carve.photos) — background removal API for images and videos.
 
-[![npm](https://img.shields.io/npm/v/carvesdk)](https://www.npmjs.com/package/carvesdk)
-[![Node](https://img.shields.io/node/v/carvesdk)](https://www.npmjs.com/package/carvesdk)
-[![License](https://img.shields.io/npm/l/carvesdk)](https://github.com/Carve-Photos/sdk-node/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@carve.photos%2Fsdk)](https://www.npmjs.com/package/@carve.photos/sdk)
+[![Node](https://img.shields.io/node/v/@carve.photos%2Fsdk)](https://www.npmjs.com/package/@carve.photos/sdk)
+[![License](https://img.shields.io/npm/l/@carve.photos%2Fsdk)](https://github.com/Carve-Photos/sdk-node/blob/main/LICENSE)
 
 ## Installation
 
 ```bash
-npm install carvesdk
+npm install @carve.photos/sdk
 ```
 
 ## Quick Start
@@ -17,7 +17,7 @@ npm install carvesdk
 ### Remove background from image
 
 ```javascript
-const { CarveClient } = require("carvesdk");
+const { CarveClient } = require("@carve.photos/sdk");
 
 const client = new CarveClient("YOUR_API_KEY");
 
@@ -39,7 +39,7 @@ await result.save("result.webp");
 ### Remove background from video
 
 ```javascript
-const { CarveClient } = require("carvesdk");
+const { CarveClient } = require("@carve.photos/sdk");
 
 const client = new CarveClient("YOUR_API_KEY");
 
@@ -81,7 +81,7 @@ Free credits are included with registration.
 ## Error Handling
 
 ```javascript
-const { CarveClient, CarveError } = require("carvesdk");
+const { CarveClient, CarveError } = require("@carve.photos/sdk");
 
 const client = new CarveClient("YOUR_API_KEY");
 

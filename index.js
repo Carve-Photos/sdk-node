@@ -2,7 +2,7 @@
  * Carve.Photos — Node.js SDK for background removal API.
  *
  * @example
- * const { CarveClient } = require("carvesdk");
+ * const { CarveClient } = require("@carve.photos/sdk");
  * const client = new CarveClient("YOUR_API_KEY");
  *
  * // Remove background from image
