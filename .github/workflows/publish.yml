@@ -25,8 +25,14 @@ jobs:
 
       - name: Verify trusted publishing OIDC context
         run: |
-          test -n "${ACTIONS_ID_TOKEN_REQUEST_URL}"
-          test -n "${ACTIONS_ID_TOKEN_REQUEST_TOKEN}"
+          if [ -z "${ACTIONS_ID_TOKEN_REQUEST_URL}" ]; then
+            echo "Error: ACTIONS_ID_TOKEN_REQUEST_URL is not set; id-token: write permission is required for npm trusted publishing."
+            exit 1
+          fi
+          if [ -z "${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" ]; then
+            echo "Error: ACTIONS_ID_TOKEN_REQUEST_TOKEN is not set; id-token: write permission is required for npm trusted publishing."
+            exit 1
+          fi
 
       - run: npm publish --provenance --access public
         env:
