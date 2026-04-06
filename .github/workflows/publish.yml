@@ -6,15 +6,11 @@ on:
 
 permissions:
   id-token: write  # Required for OIDC
-  contents: read
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     environment: npm
-    permissions:
-      contents: read
-      id-token: write
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
@@ -24,5 +20,6 @@ jobs:
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org
-
-      - run: npm publish
+          
+      - run: npm install -g npm@latest
+      - run: npm publish --provenance 
