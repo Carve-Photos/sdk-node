@@ -1,0 +1,34 @@
+{
+  "name": "carvesdk",
+  "version": "0.1.0",
+  "description": "Node.js SDK for Carve.Photos — background removal API for images and videos",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts"],
+  "keywords": [
+    "background-removal",
+    "remove-background",
+    "image-processing",
+    "video-processing",
+    "carvesdk",
+    "api",
+    "sdk",
+    "background",
+    "segmentation",
+    "matting",
+    "chroma-key"
+  ],
+  "author": "Carve.Photos <contact@carve.photos>",
+  "license": "MIT",
+  "homepage": "https://carve.photos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carve-Photos/sdk-node"
+  },
+  "bugs": {
+    "url": "https://github.com/Carve-Photos/sdk-node/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
