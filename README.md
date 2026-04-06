@@ -1,10 +1,11 @@
 # @carve.photos/sdk
 
-Node.js SDK for [Carve.Photos](https://carve.photos) — background removal API for images and videos.
+Remove backgrounds from images and videos with the [Carve.Photos](https://carve.photos) API. Node.js SDK with TypeScript support, zero dependencies, and automatic polling — pass a file, get the result.
 
 [![npm](https://img.shields.io/npm/v/@carve.photos%2Fsdk)](https://www.npmjs.com/package/@carve.photos/sdk)
 [![Node](https://img.shields.io/node/v/@carve.photos%2Fsdk)](https://www.npmjs.com/package/@carve.photos/sdk)
 [![License](https://img.shields.io/npm/l/@carve.photos%2Fsdk)](https://github.com/Carve-Photos/sdk-node/blob/main/LICENSE)
+[![CI](https://github.com/Carve-Photos/sdk-node/actions/workflows/ci.yml/badge.svg)](https://github.com/Carve-Photos/sdk-node/actions/workflows/ci.yml)
 
 ## Installation
 
