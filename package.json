@@ -23,7 +23,7 @@
   "homepage": "https://carve.photos",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Carve-Photos/sdk-node"
+    "url": "git+https://github.com/Carve-Photos/sdk-node.git"
   },
   "bugs": {
     "url": "https://github.com/Carve-Photos/sdk-node/issues"
